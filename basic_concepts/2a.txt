@@ -1,0 +1,19 @@
+- POST
+
+Do : 
+- if there is a process for entering data should using POST. Example if want to send some JSON on payloads or send multiple file like .pdf or .doc files
+
+Dont : 
+- Dont add update or delete operation when using POST method. Operations other than insert, have their own methods
+
+
+
+
+
+- GET
+
+Do : 
+- Should using GET method, when we want to get some data from other server
+
+Dont : 
+- Dont use GET method if there is operations that will be affect database

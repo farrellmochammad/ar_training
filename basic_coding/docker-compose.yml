@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  go-user-service:
+    build: ./go-service
+    volumes:
+      - ./go-service:/app
+    ports:
+      - 8013:8013
+
+  go-user-service:
+    build: ./go-service
+    volumes:
+      - ./go-service:/app
+    ports:
+      - 8014:8014
+
+    
+

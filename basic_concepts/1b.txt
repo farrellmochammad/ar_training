@@ -1,0 +1,7 @@
+Dependency injection is design pattern which divides objects into several class. There are 3 main class for dependency injection, 
+
+- Client Class: This class will depends on service class
+- Service Class: This class will provide some information or service to client class
+- Injector Class: This injector class will inject some service class to client class
+
+dependency injection is required in the architectural pattern code to make the dependencies between classes clear. The principle of dependency injection is needed in making microservice-based apps. In large companies, when the project has become very large and many developers are working on the project, the microservice must be implemented because each service has its own functionality and responsibilities.
